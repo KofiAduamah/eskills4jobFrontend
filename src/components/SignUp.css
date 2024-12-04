@@ -1,0 +1,104 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e8e8f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: url("./Assets/img2.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(2px);
+}
+
+h2 {
+    margin-top: 5px;
+    margin-bottom: 30px;
+    font-size: 24px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 5px;
+    width: 300px;
+    background: transparent;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0px 15px rgba(0, 0, 0, .2);
+}
+SignUp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+    margin-top: 30px;
+  }
+
+input type {
+    color: #3c009d;
+    font-size: 48px;
+    font-weight: 700;
+  }
+
+select {
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+
+  }
+
+label for {
+    margin-bottom: 5px;
+    font-size: 10px;
+    font-weight: lighter;
+  }
+
+input {
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    gap: 2px;
+  }  
+  
+  submit-container {
+    display: flex;
+    gap: 30px;
+    margin: 60px auto;
+    
+  }
+ 
+  button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: px;
+    padding: 10px;
+    background: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    font-size: 16px;
+    cursor: pointer;
+       
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
