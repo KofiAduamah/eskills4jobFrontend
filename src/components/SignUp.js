@@ -79,8 +79,7 @@ return (
     <option value="Administrator">Administrator</option>
     <option value="Instructor">Instructor</option>
    </select>
-    <br/>
-    
+    <label><input type='checkbox' required/> I agree to the terms & conditions </label><br/>
     <button type="submit">Sign Up</button>
     <p>Already have an account? <a href="http://localhost:3000/login" >Login</a></p>
     </form>

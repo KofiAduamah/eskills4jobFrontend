@@ -29,7 +29,7 @@ form {
     background: transparent;
     border-radius: 10px;
     padding: 20px;
-    box-shadow: 0 0px 15px rgba(0, 0, 0, .2);
+    box-shadow: 0 0px 15px rgba(0, 0, 0, 0.274);
 }
 SignUp {
     display: flex;
@@ -94,6 +94,24 @@ input {
 
 button:hover {
     background: #0056b3;
+}
+
+p {
+  color: #162938;
+  text-decoration: none;
+  text-align:center;
+
+}
+
+a {
+  color: #1903e6;
+  text-decoration: none;
+  text-align:right;
+  
+
+}
+a:hover {
+  text-decoration: underline;
 }
 
 .error {

@@ -54,6 +54,7 @@ console.log("error in logging in: ",ee);
 
 };
 
+
 return (
     <form onSubmit={push}>
         <h2>Login</h2>
@@ -63,13 +64,13 @@ return (
 
     <label for ="password">Password</label>
     <input  type="password" name="password"  onChange={handleChange} placeholder='Enter Password'   />
-    <br/>
-
+    <div className="remember-forgot">         
+    <label><input type='checkbox'/>Remember me </label><a href="#">Forgot Password?</a>
+    </div> <br/>
     <button type="submit">Login</button>
     <p>Don't have an account? <a href="http://localhost:3000/">Sign Up</a></p>
     </form>
 );
-
 };
 
 export default Login;
